@@ -4,7 +4,7 @@
   "plugins_base_url": "https://github.com/Silver-Volt4/ba-volt4-repo/{content_type}/main/plugins",
   "plugins": {
     "game_autopilot": {
-      "description": "Plugin that allows you to play FFA and Teams in with random games, eliminating the need to set up playlists to enjoy all BombSquad content.",
+      "description": "Plugin that allows you to play FFA and Teams with games selected randomly, eliminating the need to set up playlists to enjoy all your BombSquad content.",
       "external_url": "",
       "authors": [
         {
