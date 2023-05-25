@@ -3,8 +3,8 @@
   "description": "silver_volt4's plugin repository",
   "plugins_base_url": "https://github.com/Silver-Volt4/ba-volt4-repo/{content_type}/main/plugins",
   "plugins": {
-    "game_autopilot": {
-      "description": "Plugin that allows you to play FFA and Teams with games selected randomly, eliminating the need to set up playlists to enjoy all your BombSquad content.",
+    "random_play": {
+      "description": "A plugin that allows you to play randomly generated FFA or Teams matches by selecting a random minigame and map for each round. This eliminates the need to set up long playlists to enjoy all your BombSquad content.",
       "external_url": "",
       "authors": [
         {
@@ -12,17 +12,11 @@
         }
       ],
       "versions": {
-        "1.0.1": {
-          "api_version": 7,
-          "commit_sha": "a342039",
-          "released_on": "25-05-2023",
-          "md5sum": "e03cac294cf8d3c789babf71850e4042"
-        },
         "1.0.0": {
           "api_version": 7,
-          "commit_sha": "c726b13",
+          "commit_sha": "349078c",
           "released_on": "25-05-2023",
-          "md5sum": "1e1a391424b4fc6d44414609f0347ecc"
+          "md5sum": "053e7e9be55ab524c9a6cf0d8003934d"
         }
       }
     }
