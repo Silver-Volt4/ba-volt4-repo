@@ -1,29 +1,22 @@
 {
-  "name": "Mel's Plugin Source",
-  "description": "Sample plugins to mess around with.",
-  "plugins_base_url": "https://github.com/bombsquad-community/sample-plugin-source/{content_type}/main/plugins",
+  "name": "volt4 repo",
+  "description": "silver_volt4's plugin repository",
+  "plugins_base_url": "https://github.com/Silver-Volt4/ba-volt4-repo/{content_type}/main/plugins",
   "plugins": {
-    "mels_sticky_bomb_recipe": {
-      "description": "In the kitchen's crucible, where spices pirouette and blades do whisper, a treacherous liaison emerges, entwining culinary prowess with the volatile specter of explosive might.",
+    "game_autopilot": {
+      "description": "Plugin that allows you to play FFA and Teams in with random games, eliminating the need to set up playlists to enjoy all BombSquad content.",
       "external_url": "",
       "authors": [
         {
-          "name": "Mel the Cook",
-          "email": "meldoesnotreply@example.com"
+          "name": "silver_volt4",
         }
       ],
       "versions": {
-        "1.0.1": {
-          "api_version": 7,
-          "commit_sha": "2b324410",
-          "released_on": "17-05-2023",
-          "md5sum": "18a105e100804a63b0595133aac530bc"
-        },
         "1.0.0": {
           "api_version": 7,
-          "commit_sha": "21748a6e",
-          "released_on": "16-05-2023",
-          "md5sum": "d8a5906ddf8b438bd7e8c2918dd9aaff"
+          "commit_sha": "c726b13",
+          "released_on": "25-05-2023",
+          "md5sum": "1e1a391424b4fc6d44414609f0347ecc"
         }
       }
     }
