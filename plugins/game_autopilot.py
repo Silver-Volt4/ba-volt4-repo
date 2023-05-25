@@ -100,11 +100,15 @@ def patched__init__(
 ):
     width = 800
     height = 650
+    
+    ui_scale = ba.app.ui.uiscale
+    y_offset = -100 if ui_scale is ba.UIScale.SMALL else 0
+    x_offset = 50 if ui_scale is ba.UIScale.SMALL else 0
 
     self.old__init__(sessiontype, transition, origin_widget)
     self._quick_game_button = ba.buttonwidget(
         parent=self._root_widget,
-        position=(width - 120 * 2, height - 132),
+        position=(width - 120 * 2 + x_offset, height - 132 + y_offset),
         autoselect=True,
         size=(120, 60),
         scale=1.1,
